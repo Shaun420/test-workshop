@@ -3,9 +3,65 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Test Website</title>
+	<title>Coffee Ordering Website</title>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
 </head>
 <body>
-	<h1>Hello World!</h1>
+	<p>A Coffee Ordering Website</p>
+	<h1>Coffee Me!</h1>
+	<p>Your favourite place for ordering coffee <img src="icons/coffee.svg" alt="Coffee Icon" width="20px" height="20px"/></p>
+	<hr>
+	<b><a href="#home">Home</a> | <a href="#pricing">Pricing</a> | <a href="#order">Order Now</a> | <a href="#contact">Contact Us</a></b>
+	<a target="_blank" href="https://www.linkedin.com/in/shaunakhawaldar/">LinkedIn</a>
+	<br><br>
+	<img src="https://cdn.pixabay.com/photo/2014/12/11/02/56/coffee-563797_960_720.jpg" alt="Coffee image" height="300" width="500" />
+	<div id="pricing">
+		<h2>Pricing</h2>
+		<ul>
+			<li>Price 1</li>
+			<li>Price 2</li>
+			<li>Price 3</li>
+		</ul>
+	</div>
+	<div id="order">
+		<h2>Order Section</h2>
+		<table style="background-color: rgb(220, 154, 113);">
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Size</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Filter Coffee</td>
+					<td>Small/Medium/Large</td>
+					<th>Rs. 50</th>
+				</tr>
+				<tr>
+					<td>Tea</td>
+					<td>Small/Medium/Large</td>
+					<th>Rs. 40</th>
+				</tr>
+			</tbody>
+		</table>
+		<h2>Order Now button</h2>
+	</div>
+	<div id="contact">
+		<h2>Contact Us:</h2>
+		<ol>
+			<li>Name:</li>
+			<li>Email:</li>
+			<li>Phone Number:</li>
+			<li>Message:</li>
+		</ol>
+		<p>Contact Us form</p>
+	</div>
 </body>
 </html>
