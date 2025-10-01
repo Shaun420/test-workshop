@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Example</title>
+</head>
+<body>
+	<h1>Forms in HTML</h1>
+	<form>
+		<label for="">Name:</label>
+		<input type="text" name="name" placeholder="Enter your name"/>
+		<br />
+		<label for="">Age:</label>
+		<input type="number" name="age" placeholder="Enter your age" />
+		<br />
+		<label for="">Gender:</label>
+		<input type="radio" name="gender" value="male" />Male
+		<input type="radio" name="gender" value="female" />Female
+		<br />
+		<label for="">Branch:</label>
+		<select name="branch">
+			<option value="">--- Select a department ---</option>
+			<option value="computer">Computer Engineering</option>
+			<option value="electrical">Electrical Engineering</option>
+			<option value="ENTC">ENTC</option>
+			<option value="IT">IT</option>
+			<option value="AIDS">AI&DS</option>
+			<option value="instru">Instrumentation</option>
+		</select>
+		<br />
+		<label for="">Date of Birth:</label>
+		<input type="date" name="dob" />
+		<br />
+		<label for="">Declaration:</label>
+		Do you agree?
+		<input type="checkbox" name="declaration" />
+		<br />
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
