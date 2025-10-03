@@ -54,9 +54,14 @@
 			margin: 0 20px;
 			border-radius: 10px;
 		}
+		.main-content {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			justify-content: center;
+			gap: 30px;
+		}
 		.card {
 			/* border: 1px solid black; */
-			margin: 0 15px;
 			margin-top: 25px;
 			border-radius: 20px;
 			width: 300px;
@@ -91,6 +96,9 @@
 			border-radius: 10px;
 			/* border: none;
 			background-color: rgb(80, 206, 248); */
+		}
+		.card-content button:hover {
+			box-shadow: 0 5px 15px 5px rgb(255, 163, 163);
 		}
 	</style>
 </head>
@@ -147,6 +155,30 @@
 				<button>Learn More</button>
 			</div>
 		</div>
+		<div class="card">
+			<img src="https://cdn.myanimelist.net/images/anime/1613/108722.jpg"></img>
+			<div class="card-content">
+				<h2>Tonikawa: Over The Moon For You</h2>
+				<p>
+					Nasa Yuzaki is determined to leave his name in the history books.
+					Ranking first in the national mock exam and aiming for a distinguished high school, he is certain
+					that he has his whole life mapped out. However, fate is a fickle mistress.
+				</p>
+				<button>Learn More</button>
+			</div>
 		</div>
+		<div class="card">
+			<img src="https://cdn.myanimelist.net/images/anime/1695/111486.jpg"></img>
+			<div class="card-content">
+				<h2>Horimiya</h2>
+				<p>
+					On the surface, the thought of Kyouko Hori and Izumi Miyamura getting along would be the last thing in people's minds.
+					After all, Hori has a perfect combination of beauty and brains, while Miyamura appears meek and distant to his fellow classmates.
+					However, a fateful meeting between the two lays both of their hidden selves bare.
+				</p>
+				<button>Learn More</button>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
