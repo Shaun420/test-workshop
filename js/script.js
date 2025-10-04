@@ -22,7 +22,8 @@ console.log("My name is", myName); // My name is Shaunak
 /*
 	FEATURES OF ES6
 	1. Template literals
-	2. 
+	2. let and const
+	3. Arrow function
 */
 
 // Template literals
@@ -60,3 +61,35 @@ if (num1 > num2) {
 	console.log("num1 is bigger"); // num1 is bigger
 }
 console.log(num3); // 45
+
+// Functions
+function sayHello() {
+	console.log("Good afternoon class");
+}
+sayHello();
+
+function sayGoodMorning(firstNmae) {
+	return `Good morning ${firstNmae}`;
+}
+console.log(sayGoodMorning("xyz"));
+let result = sayGoodMorning("abc");
+console.log(result);
+
+function sumTwo(a, b) {
+	return a + b;
+}
+console.log(sumTwo(45, 5));
+
+function getArea(a, b) {
+	// Anonymous function
+	// Immediately invoked function expression (IIFE)
+	let result = function() {
+		return a + b;
+	}(a, b);
+	console.log(result);
+}
+getArea(15, 20);
+
+// Arrow function
+const sum = (a, b) => a + b;
+console.log(sum(15, 6));
