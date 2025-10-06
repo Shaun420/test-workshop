@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form with JS</title>
+	<style>
+		.input-div {
+			padding-bottom: 15px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Form with JS</h1>
+	<form id="user-form">
+		<div class="input-div">
+			<label for="firstName">Enter your name:</label>
+			<input id="firstName" type="text" name="name" />
+		</div>
+		<div class="input-div">
+			<label for="age">Enter your age:</label>
+			<input id="age" type="number" name="age" />
+		</div>
+		<div class="input-div">
+			<label for="email">Enter your email:</label>
+			<input id="email" type="email" name="email" />
+		</div>
+		<button type="submit" id="submit-btn">Submit</button>
+	</form>
+	<h2>User Data:</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody id="table-body">
+			<tr>
+				<td>abc</td>
+				<td>12</td>
+				<td>abc@xyz</td>
+			</tr>
+		</tbody>
+	</table>
+	<script src="form.js"></script>
+</body>
+</html>
