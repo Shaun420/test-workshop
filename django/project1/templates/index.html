@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page</title>
+</head>
+<body>
+	<h1>Student Management Portal</h1>
+	<p>This is my index page</p>
+	{% for student in studentlist %}
+		<ul>
+			<li>First name: {{ student.first_name }}</li>
+			<li>Last name: {{ student.last_name }}</li>
+			<li>Age: {{ student.age }}</li>
+		</ul>
+	{% endfor %}
+</body>
+</html>
